@@ -3,6 +3,7 @@ import sun from './sun.png';
 import Common from './constants/Common';
 import WeatherContent from './WeatherContent';
 import PlaceNav from './PlaceNav';
+
 import './App.css';
 
 const App = React.createClass( {
@@ -13,11 +14,11 @@ const App = React.createClass( {
     }
   },
 
-  onPlaceClick(text){
+  onPlaceClick(value){
     console.log(this);
 
     this.setState({
-      selectedPlace: text
+      selectedPlace: value
     })
   },
 

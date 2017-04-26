@@ -32,3 +32,14 @@
   margin: 0;
   padding: 15px 20px;
 }
+
+.weather-content table{
+  left: 10%;
+  position:  relative;
+  width: 80%;
+}
+
+.weather-content h2{
+  color: darkgrey;
+
+}

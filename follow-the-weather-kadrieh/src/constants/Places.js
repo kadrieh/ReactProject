@@ -1,13 +1,16 @@
 
 const places = {
     DUBLIN: {
-      text: 'Dublin'
+      text: 'Dublin',
+      value: 'DUBLIN'
     },
     LONDON: {
-      text: 'London'
+      text: 'London',
+      value: 'LONDON'
     },
     NEW_YORK: {
-      text: 'New York'
+      text: 'New York',
+      value: 'NEW YORK'
     }
 }
 

@@ -3,10 +3,10 @@ import places from './constants/Places';
 
 class PlaceNav extends Component {
 
-  onClick(text){
+  onClick(value){
     //console.log(this);//not needed
 
-    this.props.onPlaceClick(text)
+    this.props.onPlaceClick(value)
   }
 
   renderPlace(){
@@ -16,10 +16,10 @@ class PlaceNav extends Component {
       //  console.log(place);
 
         //place(place).text
-        const {text} = places[place];
+        const {text, value} = places[place];
 
         elements.push(
-          <h2 onClick={this.onClick.bind(this, text)}>
+          <h2 onClick={this.onClick.bind(this, value)}>
             {text}
           </h2>
         )
